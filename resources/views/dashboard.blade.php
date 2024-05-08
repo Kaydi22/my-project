@@ -60,11 +60,7 @@
                         >
                         @csrf
                         <input
-                        type="submit"
-                        class="bg-blue-600 text-white uppercase rounded-lg px-3 py-1
-                        text-xs font-bold cursor-pointer"
-                        value="Seguir"
-                        />
+                        type="submit" class="bg-blue-600 text-white uppercase rounded-lg px-3 py-1 text-xs font-bold cursor-pointer"value="Seguir"/>
                     </form>
                     @else
                     <form
@@ -73,12 +69,7 @@
                         >
                         @csrf
                         @method('DELETE')
-                        <input
-                        type="submit"
-                        class="bg-red-600 text-white uppercase rounded-lg px-3 py-1
-                        text-xs font-bold cursor-pointer"
-                        value="dejar de Seguir"
-                        />
+                        <input type="submit" class="bg-red-600 text-white uppercase rounded-lg px-3 py-1text-xs font-bold cursor-pointer" value="dejar de Seguir"/>
                     </form>
                   @endif
                 @endif
